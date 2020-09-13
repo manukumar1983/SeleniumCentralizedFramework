@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [paralledsuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.seleniumpoc.infy.seleniumpoc.Reporter"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.seleniumpoc.infy.seleniumpoc.Test33">
+        <methods>
+          <include name="init"/>
+          <include name="atest331"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.seleniumpoc.infy.seleniumpoc.Test33 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [paralledsuite] -->

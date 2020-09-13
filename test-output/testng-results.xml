@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="82" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+      <class name="com.test.sample.test2">
+        <test-method status="PASS" signature="hh()[pri:0, instance:com.test.sample.test2@c661695]" name="hh" is-config="true" duration-ms="9" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hh -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.test.sample.test2@c661695]" name="m1" duration-ms="8" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="hh()[pri:0, instance:com.test.sample.test2@c661695]" name="hh" is-config="true" duration-ms="1" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hh -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.test.sample.test2@c661695]" name="m2" duration-ms="1" started-at="2020-09-10T12:25:09 IST" finished-at="2020-09-10T12:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- com.test.sample.test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
